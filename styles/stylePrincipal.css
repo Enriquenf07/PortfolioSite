@@ -38,6 +38,7 @@
 
 .container-principal{
     height: 86vh;
+    max-width: auto;
 }
 
 .tamanho-total{

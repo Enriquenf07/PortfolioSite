@@ -20,13 +20,14 @@
     height: 100vh;
 }
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1510px) {
     .container-principal{
         height: 100%;
     }
     .tamanho-col-card{
         height: 700px;
-        padding: 4rem;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .card-hab{
