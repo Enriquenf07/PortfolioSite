@@ -76,6 +76,13 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .container-nav{
+        padding: 0;
+    }
+    .nav-item{
+        background-color: black;
+        border-bottom: solid 1px white;
+    }
     .navborder{
         border-bottom-style: none;
     }
