@@ -4,29 +4,17 @@
     padding-top: 0;
 }
 
-.card-img-top{
-    max-width: 100%;
-    height: 50%;
-}
-
 .bi{
     font-size: 14rem;
 }
 
-.card-img-comp{
-    margin-left: 2rem;
-    max-width: 80%;
-    height: 28vh;
-}
 
 .card-hab{
     margin-left: 1.7rem;
     height: 550px;
 }
 
-.card-body{
-    margin-top: 1.5rem;
-}
+
 
 .container-principal{
     height: 100vh;
