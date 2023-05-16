@@ -11,7 +11,7 @@
     <link rel="icon" type="image/x-icon" href="../images/logo.jpg">
     
 </head>
-<body class="bg-primaria">
+<body>
     <nav class="navbar navbar-expand-sm bg-primaria navbar-tamanho navborder">
         <div class="container-fluid">
             <a class="navbar-brand" href="home.html">
@@ -26,10 +26,10 @@
                         <a class="nav-link font1 cor-secundaria" href="home.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font1 cor-secundaria" href="habilidades.html">Habilidades</a>
+                        <a class="nav-link font1 cor-secundaria" href="habilidades.html #referencia">Habilidades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font1 cor-secundaria" href="projetos.html">Projetos</a>
+                        <a class="nav-link font1 cor-secundaria" href="projetos.html #referencia">Projetos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link font1 cor-secundaria" href="contato.html">Contato</a>
@@ -37,55 +37,93 @@
                 </ul>
             </div>
         </div>
-      </nav>
-      <div class="container-fluid container-principal bg-primaria">
-        <div class="row tamanho-total bg-primaria">
-            <div class="col-12 bg-primaria text-center p-5 pb-0">
-                <h1 class="display-1 titulo cor-secundaria">Habilidades</h1>
+    </nav>
+    <div class="container-fluid container-principal d-flex justify-content-center align-items-center flex-column" id="referencia">
+        <div class="content-page">
+            <div class="row header">
+                <h1 class="habilidades-text">Habilidades</h1>
             </div>
-            <div class="col-xl-3 col-lg-12 tamanho-col-card bg-primaria d-flex justify-content-center">
-                <div class="card text-center card-hab" style="width: 18rem;">
-                    <i class="bi bi-filetype-js text-warning"></i>
-                    <div class="card-body">
-                      <h5 class="card-title">HTML/CSS/JavaScript</h5>
-                      <p class="card-text">Criação de sites com HTML.</p>
-                      <p class="card-text">Customização de estilos com o CSS e Bootstrap.</p>
-                      <p class="card-text">Manipulação do DOM com JavaScript.</p>
-                      <a href="../html/projetos.html" class="btn btn-primary">Projetos</a>
+            <div class="row page">
+                <div class="row page-item">
+                    <div class="col-lg-4 col-12  page-item-img">
+                        <img src="../images/JavaScript-logo.png" alt="" class="js-img">
                     </div>
-                  </div>
-            </div>
-            <div class="col-xl-3 col-lg-12 tamanho-col-card bg-primaria d-flex justify-content-center">
-                <div class="card text-center card-hab" style="width: 18rem;">
-                    <i class="bi bi-filetype-py text-primary"></i>
-                    <div class="card-body">
-                      <h5 class="card-title">Python/Django</h5>
-                      <p class="card-text">Python avançado: Estrutura de dados; Funções; Classes; Modulos.</p>
-                      <p class="card-text">Criação de sites dinamicos com o framework Django.</p>
-                      <a href="../html/projetos.html" class="btn btn-primary">Projetos</a>
+                    <div class="col-lg-8 col-12 page-item-text">
+                        <div class="row item-title">
+                            <h1>HTML/CSS/JavaScript</h1>
+                        </div>
+                        <div class="row item-text">
+                            <p>Experiência com a criação de sites com html, css e javascript. Habilidade em manusear interfaces do usuario de forma responsiva.</p>
+                        </div>
+                        <div class="row item-btn">
+                            <a href="projetos.html #referencia"><button>projetos</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-12 tamanho-col-card bg-primaria d-flex justify-content-center">
-                <div class="card text-center card-hab" style="width: 18rem;">
-                    <i class="bi bi-filetype-sql text-success"></i>
-                    <div class="card-body">
-                      <h5 class="card-title">Banco de dados relacional</h5>
-                      <p class="card-text">Solidos Conhecimentos em modelagem conceitual, logica e fisica de bancos de dados relacionais.</p>
-                      <a href="../html/projetos.html" class="btn btn-primary">Projetos</a>
+        </div>
+    </div>
+    <div class="container-fluid container-principal container-2 d-flex justify-content-center align-items-center flex-column">
+        <div class="content-page">
+            <div class="row page">
+                <div class="row page-item">
+                    <div class="col-lg-8 col-12 page-item-text">
+                        <div class="row item-title">
+                            <h1>Python/Django</h1>
+                        </div>
+                        <div class="row item-text">
+                            <p>Experiência com a criação de sites dinâmicos com Django. Python foi minha primeira linguagem de programação e também é a que eu mais me especializei. O framework Django já é uma historia mais recente, mas venho me especializando cada dia mais, desde a criação de html dinâmico com templates até a manipulação de SQL com models </p>
+                        </div>
+                        <div class="row item-btn">
+                            <a href="projetos.html #referencia"><button>projetos</button></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12  page-item-img2">
+                        <img src="../images/dj-logo.webp" alt="" class="js-img">
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3 col-lg-12 tamanho-col-card bg-primaria d-flex justify-content-center">
-                <div class="card text-center card-hab" style="width: 18rem;">
-                    <i class="bi bi-cpu"></i>
-                    <div class="card-body">
-                      <h5 class="card-title">Conhecimentos Gerais</h5>
-                      <p class="card-text">Algoritmos e estrutura de dados.</p>
-                      <p class="card-text">Metodos ágeis.</p>
-                      <p class="card-text">Linguagens: C, C++.</p>
-                      <p class="card-text">Inglês avançado.</p>
-                      <a href="../html/projetos.html" class="btn btn-primary">Projetos</a>
+        </div>
+    </div>
+    <div class="container-fluid container-principal container-2 d-flex justify-content-center align-items-center flex-column">
+        <div class="content-page">
+            <div class="row page">
+                <div class="row page-item">
+                    <div class="col-lg-4 col-12 page-item-img">
+                        <img src="../images/dadoslogo2.png" alt="" class="js-img">
+                    </div>
+                    <div class="col-lg-8 col-12 page-item-text">
+                        <div class="row item-title">
+                            <h1>Banco de dados relacional</h1>
+                        </div>
+                        <div class="row item-text">
+                            <p>Solidos Conhecimentos em modelagem conceitual, logica e fisica de bancos de dados relacionais. Experiência com definição, manipulação e consulta de dados com SQL, especialmente MySql. </p>
+                        </div>
+                        <div class="row item-btn">
+                            <a href="projetos.html #referencia"><button>projetos</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid container-principal container-2 d-flex justify-content-center align-items-center flex-column">
+        <div class="content-page">
+            <div class="row page">
+                <div class="row page-item">
+                    <div class="col-lg-8 col-12 page-item-text">
+                        <div class="row item-title">
+                            <h1>Conhecimentos gerais</h1>
+                        </div>
+                        <div class="row item-text">
+                            <p>Algoritmos e estrutura de dados.</p>
+                            <p>Metodos ágeis.</p>
+                            <p>Linguagens: C, C++.</p>
+                            <p>Inglês avançado.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 page-item-img2">
+                        <img src="../images/iconeCC2.png" alt="" class="js-img">
                     </div>
                 </div>
             </div>

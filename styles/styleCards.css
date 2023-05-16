@@ -1,38 +1,167 @@
-.tamanho-col-card{
-    height: 70vh;
-    padding: 4rem;
-    padding-top: 0;
-}
+@import url('httpsL//fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.bi{
-    font-size: 14rem;
-}
-
-
-.card-hab{
-    margin-left: 1.7rem;
-    height: 550px;
-}
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 
 
 
 .container-principal{
+    height: 110vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(19,19,19);
+}
+
+.content-page{
+    width: 70%;
     height: 100vh;
 }
 
-@media only screen and (max-width: 1510px) {
+.header{
+    height: 30vh;
+    color: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.page-item{
+    border-top: 1px solid rgb(90, 90, 90, 0.5);
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
+
+.page-item-img{
+    padding-top: 32px;
+    padding-right: 32px;
+    border-right: 1px solid rgb(90, 90, 90, 0.5);
+}
+
+.page-item-img2{
+    padding-top: 32px;
+    padding-right: 32px;
+    border-left: 1px solid rgb(90, 90, 90, 0.5);
+}
+
+
+.page-item-text{
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+
+
+.item-title{
+    height: 30%;
+    color: ghostwhite;
+}
+
+.item-text{
+    overflow: auto;
+    height: 30%;
+    width: 40%;
+    color: ghostwhite;
+}
+
+.item-text::-webkit-scrollbar{
+    width: 8px;
+}
+
+.item-btn{
+    display: flex;
+    align-items: end;
+    height: 30%;
+    width: 40%;
+    color: ghostwhite;
+}
+
+.item-btn a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.item-btn button{
+    height: 20%;
+    width: 100%;
+    border: none;
+    color: ghostwhite;
+    background-color: rgb(19, 19, 19);
+    border: 1px solid rgb(90, 90, 90, 0.5);
+}
+
+.habilidades-text{
+    font-size: 4rem;
+}
+
+.js-img{
+    width: 36vmin;
+    height: 36vmin;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container-2{
+    height: 90vh;
+}
+
+@media only screen and (max-width: 1540px) {
     .container-principal{
         height: 100%;
-    }
-    .tamanho-col-card{
-        height: 700px;
-        padding-left: 0;
-        padding-right: 0;
+        border: none;
     }
 
-    .card-hab{
-        margin-left: 1.7rem;
-        height: 100%;
+    .header h1{
+        font-size: 50px;
     }
 
+    .page-item{
+        border: none;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10vh;
+    }
+
+    .page-item-text{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .page-item-img{
+        display: none;
+        border: none;
+        padding: 0px;
+    }
+    
+    .page-item-img2{
+        display: none;
+        border-left: none;
+        padding: 0px;
+    }
+
+    .item-text{
+        overflow: auto;
+        height: 30%;
+        width: 100%;
+        color: ghostwhite;
+    }
 }
